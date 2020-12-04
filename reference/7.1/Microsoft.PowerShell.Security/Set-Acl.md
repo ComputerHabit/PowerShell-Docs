@@ -124,7 +124,7 @@ $NewAcl.SetAccessRuleProtection($isProtected, $preserveInheritance)
 Set-Acl -Path "C:\Pets\Dog.txt" -AclObject $NewAcl
 ```
 
-These commands is will disable access inheritance from parent folders, while still preserving the
+These commands will disable access inheritance from parent folders, while still preserving the
 existing inherited access rules.
 
 The first command uses the `Get-Acl` cmdlet to get the security descriptor of the Dog.txt file.
